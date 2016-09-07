@@ -414,6 +414,8 @@ class Tracker:
 
 		vanishing_trail = np.ones((vtrail_len,2))*-1
 
+		cv2.namedWindow("Tracker")
+		cv2.startWindowThread()
 		while cap.isOpened():
 
 			mcx,mcy,o1 = -1,-1,-1
@@ -518,7 +520,7 @@ class Tracker:
 				break
 		 
 		cap.release()
-		cv2.destroyAllWindows()
+		cv2.destroyWindow("Tracker")
 
 		if data_output != None:
 			self.savefile.close()     
