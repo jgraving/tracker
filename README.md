@@ -24,7 +24,7 @@ Installation
 pip install git+https://www.github.com/jgraving/pose.git
 ```
 
-Reference
+Citing
 ----------
 If you use this software for academic research, please consider citing it using this zenodo DOI: 
 
