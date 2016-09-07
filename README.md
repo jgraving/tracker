@@ -9,6 +9,15 @@
 The library uses uses OpenCV to automatically track the location of an animal in a video. 
 It provides a high-level API for the automated analysis of animal behavior and locomotion.
 
+![alt text][screenshot]
+
+[screenshot]: https://github.com/jgraving/pose/images/screenshot.png
+
+Tutorial
+------------
+
+For an example of how to use POSE [click here](https://github.com/jgraving/pose/example/pose_tracker_example.ipynb)
+
 Dependencies
 ------------
 
