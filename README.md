@@ -1,6 +1,6 @@
-![alt text][logo]
+-> ![alt text][logo] <-
 
-[logo]: https://github.com/jgraving/pose/blob/master/pose-logo.png
+-> [logo]: https://github.com/jgraving/pose/blob/master/pose-logo.png <-
 
 **POSE**: behavioral tracking using Python and OpenCV
 =======================================
@@ -9,9 +9,9 @@
 The library uses uses OpenCV to automatically track the location of an animal in a video. 
 It provides a high-level API for the automated analysis of animal behavior and locomotion.
 
-![alt text][screenshot]
+-> ![alt text][screenshot] <-
 
-[screenshot]: https://github.com/jgraving/pose/blob/master/images/screenshot.png
+-> [screenshot]: https://github.com/jgraving/pose/blob/master/images/screenshot.png <-
 
 Tutorial
 ------------
