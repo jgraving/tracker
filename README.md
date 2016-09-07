@@ -34,7 +34,7 @@ If you use this software for academic research, please consider citing it using 
 Dependencies
 ------------
 
-- [Python 2.7+ or 3.3+](http://www.python.org)
+- [Python 2.7 or 3.3+](http://www.python.org)
 
 - [numpy](http://www.numpy.org/)
 
