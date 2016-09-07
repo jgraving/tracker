@@ -18,6 +18,12 @@ Tutorial
 
 For an example of how to use POSE [click here](https://github.com/jgraving/pose/blob/master/example/pose_tracker_example.ipynb)
 
+Installation
+------------
+```bash
+pip install git+https://www.github.com/jgraving/pose.git
+```
+
 Dependencies
 ------------
 
