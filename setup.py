@@ -21,7 +21,7 @@ MAINTAINER_EMAIL = 'jgraving@gmail.com'
 URL = 'http://jakegraving.com'
 LICENSE = 'BSD (3-clause)'
 DOWNLOAD_URL = 'https://github.com/jgraving/pose.git'
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 
 try:
     from setuptools import setup
