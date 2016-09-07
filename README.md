@@ -16,7 +16,7 @@ It provides a high-level API for the automated analysis of animal behavior and l
 Tutorial
 ------------
 
-For an example of how to use POSE [click here](https://github.com/jgraving/pose/blob/master/example/pose_tracker_example.ipynb)
+[Click here](https://github.com/jgraving/pose/blob/master/example/pose_tracker_example.ipynb) for an example of how to use POSE 
 
 Installation
 ------------
@@ -26,10 +26,9 @@ pip install git+https://www.github.com/jgraving/pose.git
 
 Reference
 ----------
-If you use this software for academic research, please consider citing it: 
+If you use this software for academic research, please consider citing it using this zenodo DOI: 
 
 [![DOI](https://zenodo.org/badge/24020/jgraving/pose.svg)](https://zenodo.org/badge/latestdoi/24020/jgraving/pose)
-
 
 
 Dependencies
@@ -45,6 +44,11 @@ Dependencies
 
 - [OpenCV 3.1+](http://opencv.org/)
 
+Development
+-------------
+[https://github.com/jgraving/pose](https://github.com/jgraving/pose)
+
+Please [submit any bugs](https://github.com/jgraving/pose/issues/new) you encounter to the GitHub issue tracker
 
 License
 ------------
