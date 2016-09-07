@@ -34,7 +34,7 @@ If you use this software for academic research, please consider citing it using 
 Dependencies
 ------------
 
-- [Python 2.7+](http://www.python.org)
+- [Python 2.7+ or 3.3+](http://www.python.org)
 
 - [numpy](http://www.numpy.org/)
 
@@ -53,4 +53,4 @@ Please [submit any bugs](https://github.com/jgraving/pose/issues/new) you encoun
 License
 ------------
 
-Released under a BSD (3-clause) license
+Released under a [BSD (3-clause) license](https://github.com/jgraving/pose/blob/master/LICENSE)
