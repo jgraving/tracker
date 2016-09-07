@@ -11,12 +11,12 @@ It provides a high-level API for the automated analysis of animal behavior and l
 
 ![alt text][screenshot]
 
-[screenshot]: https://github.com/jgraving/pose/images/screenshot.png
+[screenshot]: https://github.com/jgraving/pose/blob/master/images/screenshot.png
 
 Tutorial
 ------------
 
-For an example of how to use POSE [click here](https://github.com/jgraving/pose/example/pose_tracker_example.ipynb)
+For an example of how to use POSE [click here](https://github.com/jgraving/pose/blob/master/example/pose_tracker_example.ipynb)
 
 Dependencies
 ------------
