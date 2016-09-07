@@ -26,7 +26,7 @@ pip install git+https://www.github.com/jgraving/pose.git
 
 Reference
 ----------
-[![DOI](https://zenodo.org/badge/24020/jgraving/pose.svg)](https://zenodo.org/badge/latestdoi/24020/jgraving/pose)
+If you use this software for academic research, please cite it: [![DOI](https://zenodo.org/badge/24020/jgraving/pose.svg)](https://zenodo.org/badge/latestdoi/24020/jgraving/pose)
 
 Dependencies
 ------------
