@@ -2,7 +2,7 @@
 
 [logo]: https://github.com/jgraving/pose/blob/master/images/pose-logo-small.png
 
-**POSE**: behavioral tracking using Python and OpenCV
+Behavioral tracking using Python and OpenCV
 =======================================
 
 **POSE** (**P**ython **O**pen **S**ource **E**thology) is a Python package for tracking the behavior of individual animals. 
