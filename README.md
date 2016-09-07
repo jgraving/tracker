@@ -13,7 +13,7 @@ It provides a high-level API for the analysis of animal behavior and locomotion.
 
 [screenshot]: https://github.com/jgraving/pose/blob/master/images/screenshot.png
 
-Fig 1. The current frame (left) is subtracted from the background model (middle) to produce a foreground mask (right), which is then used to track the location of the animal over time (left). 
+Figure 1. The current frame (left) is subtracted from the background model (middle) to produce a foreground mask (right), which is then used to track the location of the animal over time (left). 
 
 Tutorial
 ------------
