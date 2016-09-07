@@ -1,6 +1,6 @@
 -> ![alt text][logo] <-
 
--> [logo]: https://github.com/jgraving/pose/blob/master/pose-logo.png <-
+-> [logo]: https://github.com/jgraving/pose/blob/master/images/pose-logo.png <-
 
 **POSE**: behavioral tracking using Python and OpenCV
 =======================================
