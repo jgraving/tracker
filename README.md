@@ -27,7 +27,7 @@ Install the latest stable release:
 ```bash
 pip install https://github.com/jgraving/pose/archive/0.1.1.zip
 ```
-Install the 
+
 Citing
 ----------
 If you use this software for academic research, please consider citing it using this zenodo DOI: 
