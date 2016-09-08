@@ -513,9 +513,9 @@ class Tracker:
 				if video_output != None:
 					out.write(frame)
 								
-				k = cv2.waitKey(int(self.delay*1000)) & 0xff
-				if k == 27:
-					break
+			k = cv2.waitKey(int(self.delay*1000)) & 0xff
+			if k == 27:
+				break
 			elif frame_number == total_frames:
 				break
 		 
