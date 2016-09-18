@@ -18,6 +18,7 @@ Tutorial
 
 Installation
 ------------
+[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?maxAge=2592000?style=flat-square)](https://github.com/jgraving/pose/archive/0.1.1.zip)
 Install the development version:
 ```bash
 pip install git+https://www.github.com/jgraving/pose.git
@@ -38,7 +39,7 @@ If you use this software for academic research, please consider citing it using 
 Dependencies
 ------------
 
-- [Python 2.7 or 3.3+](http://www.python.org)
+- [![PyPI](https://img.shields.io/pypi/pyversions/Django.svg?maxAge=2592000?style=flat-square)](http://www.python.org)
 
 - [numpy](http://www.numpy.org/)
 
