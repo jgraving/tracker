@@ -38,6 +38,8 @@ If you use this software for academic research, please consider citing it using 
 Dependencies
 ------------
 
+[![PyPI](https://img.shields.io/pypi/l/Django.svg?maxAge=2592000?style=flat-square)]()
+
 - [Python 2.7 or 3.3+](http://www.python.org)
 
 - [numpy](http://www.numpy.org/)
