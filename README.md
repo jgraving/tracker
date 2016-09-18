@@ -38,8 +38,6 @@ If you use this software for academic research, please consider citing it using 
 Dependencies
 ------------
 
-[![PyPI](https://img.shields.io/pypi/l/Django.svg?maxAge=2592000?style=flat-square)]()
-
 - [Python 2.7 or 3.3+](http://www.python.org)
 
 - [numpy](http://www.numpy.org/)
@@ -58,5 +56,6 @@ Please [submit any bugs](https://github.com/jgraving/pose/issues/new) you encoun
 
 License
 ------------
+[![PyPI](https://img.shields.io/pypi/l/Django.svg?maxAge=2592000?style=flat-square)](https://github.com/jgraving/pose/blob/master/LICENSE)
 
 Released under a [BSD (3-clause) license](https://github.com/jgraving/pose/blob/master/LICENSE)
