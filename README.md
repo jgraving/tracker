@@ -3,8 +3,7 @@
 
 **POSE** (**P**ython **O**pen **S**ource **E**thology) is a Python package for tracking the behavior of individual animals. 
 The tracker uses OpenCV to automatically extract the location of an animal in a video with adaptive background subtraction. 
-It provides a high-level Python API for the analysis of animal behavior and locomotion.
-[![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
+It provides a high-level API for the analysis of animal behavior and locomotion.
 
 ![alt text][screenshot]
 
