@@ -18,7 +18,6 @@ Tutorial
 
 Installation
 ------------
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?maxAge=2592000?style=flat-square)](https://github.com/jgraving/pose/archive/0.1.1.zip)
 
 Install the development version:
 ```bash
