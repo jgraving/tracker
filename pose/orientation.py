@@ -4,7 +4,7 @@ from __future__ import division, print_function
 import numpy as np
 
 
-def get_orientation(contour, C = 0.3):
+def get_orientation(contour, C = 0.3, degrees = True):
 
 	"""Returns the orientation information of a contour
 
