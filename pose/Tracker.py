@@ -529,37 +529,3 @@ class Tracker:
 
 		for i in range(10):
 			cv2.waitKey(1)
-
-def get_orientation(contour):
-	contour = contour.reshape(contour.shape[0],2)
-	x = contour[:,0]
-	y = contour[:,1]
-
-	# subtract the mean from each variable (column) in the data
-	mx = x - np.mean(x)
-	my = y - np.mean(y)
-	data = np.array([mx,my])
-
-	eigenvectors, eigenvalues, V = np.linalg.svd(data.T, full_matrices=False)
-
-	PC1_eigen = 0.3 * eigenvalues[0]
-	PC2_eigen = 0.3 * eigenvalues[1]
-	PC1_x = [0,V[0,0]*PC1_eigen]+np.mean(x)
-	PC1_y = [0,V[0,1]*PC1_eigen]+np.mean(y)
-	PC2_x = [0,V[1,0]*PC2_eigen]+np.mean(x)
-	PC2_y = [0,V[1,1]*PC2_eigen]+np.mean(y)
-	
-	major = np.array([PC1_x,PC1_y]).T
-	minor = np.array([PC2_x,PC2_y]).T
-	
-	ratio = eigenvalues[0]/eigenvalues[1]
-
-	PC1_xdiff = PC1_x[1] - PC1_x[0]
-	PC1_ydiff = PC1_y[1] - PC1_y[0]
-	PC2_xdiff = PC2_x[1] - PC2_x[0]
-	PC2_ydiff = PC2_y[1] - PC2_y[0]
-
-	orientation1 = np.degrees((np.arctan2(PC1_ydiff,PC1_xdiff)))
-	orientation2 = np.degrees((np.arctan2(PC2_ydiff,PC2_xdiff)))
-	
-	return [major, minor, orientation1, orientation2]
