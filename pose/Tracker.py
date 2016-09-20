@@ -385,7 +385,12 @@ class Tracker:
 		timestamp = dt.datetime.now()
 
 		if data_output != None:
-			self.savefile = open(data_output,"w")
+
+			directory = os.path.dirname(data_output)
+			if not os.path.exists(directory):
+    			os.makedirs(directory)
+
+			self.savefile = open(data_output,"w+")
 
 			if type(self.source) == str:
 				write_str = "position_msec" + "," + "frame_number" + "," + "x" + "," + "y" + "\n"
