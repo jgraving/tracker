@@ -388,7 +388,7 @@ class Tracker:
 
 			directory = os.path.dirname(data_output)
 			if not os.path.exists(directory):
-    			os.makedirs(directory)
+				os.makedirs(directory)
 
 			self.savefile = open(data_output,"w+")
 
