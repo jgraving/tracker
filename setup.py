@@ -49,7 +49,7 @@ def check_dependencies():
     try:
         import cv2
     except ImportError:
-        install_requires.append('cv2')
+        install_requires.append('opencv-python')
 
     return install_requires
 
